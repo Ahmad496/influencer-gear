@@ -4,19 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>influencer-gear</title>
+    <script
+      src="https://kit.fontawesome.com/bf0c2d4822.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
   </head>
   <body>
     <header>
       <!-- navbar starts here -->
-      <nav class="navbar-main">
-        <div>Influencer products</div>
-        <div>
-          <button>Home</button>
-          <button>Products</button>
-          <button>Sign up</button><button>Log In</button>
-        </div>
-      </nav>
+      <div class="navbar-wrapper">
+        <nav class="navbar-main">
+          <div>Influencer products</div>
+          <div class="nav-btn-container">
+            <button class="nav-menu">Products</button>
+            <button class="nav-menu">Sign up</button>
+            <button class="nav-menu">Log In</button>
+            <button class="nav-menu">Home</button>
+            <button class="nav-menu">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="nav-menu">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+          <div class="nav-hambarger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+
       <!-- navbar ends here -->
     </header>
   </body>
